@@ -52,11 +52,25 @@ styles{
     display: grid;
     grid-template-columns: repeat(3,1fr);
 }
-.player img{
-    margin-top: 70px;
+.blogs{
+    margin-right: 30px;
     margin-left: 100px;
+}
+.player img{
+    margin-top: 30px;
+   
+   
 }
 .title{
     width: 300px;
-    margin-left: 100px;
+    
+}
+/* main section end */
+.sub-section{
+    display: flex;
+    margin-top: 70px;
+}
+/* footer start */
+.fav-icon a{
+   
 }
