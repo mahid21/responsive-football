@@ -6,9 +6,7 @@ body{
     font-size: 16px;
 }
 /* header start */
-.header{
 
-}
 .main-head{
     width: 1440px;
     height: 677px;
@@ -53,10 +51,7 @@ body{
     margin-right: 5px;
     
 }
-styles{
-    color: #FFFFFF;
-    
-}
+
 
  .banner-logo{
     position: relative;
@@ -81,18 +76,20 @@ styles{
 }
 
 /* section start */
-.main-section{
+.container{
     background-color:#FFFFFF;
     width: 1440px;
     margin: 0 auto;
 }
-.players{
+.top-players{
     display: grid;
     grid-template-columns: repeat(3,1fr);
 }
 .blogs{
-    margin-right: 30px;
-    margin-left: 100px;
+    margin-left: 30px;
+}
+.players{
+    margin-left: 50px;
 }
 .player img{
     margin-top: 30px;
@@ -114,16 +111,22 @@ styles{
     width: 400px;
     height: 309px;
 }
+
 .sub-left h2{
     font-weight: 700;
     font-size: 30px;
 }
 .sub-left a{
+    color:#FFFFFF;
+    background-color: #E02C6D;
+    padding: 10px;
     text-decoration: none;
+    margin-right: 5px;
 }
 .sub-right{
     margin: 30px 0px 0px 60px;
 }
+
 /* footer start */
 .footer{
     margin: 30px 0px 0px 230px;
