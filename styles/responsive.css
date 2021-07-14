@@ -16,3 +16,10 @@ Media Quaries
         margin-right: 100px;
     }
 }
+/* Tablet devices */
+
+@media only screen and (min-width:688px) and (max-width:992px) {
+    .main-head, .top-players, .sub-section, .fill-set, .foter{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
