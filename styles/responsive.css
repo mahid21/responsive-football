@@ -1,0 +1,18 @@
+/*---------- 
+Media Quaries
+-------- */
+/* Mobile Devices */
+
+@media only screen and (max-width: 688px) {
+   
+    .main-head, .top-players, .sub-section, .fill-set, .foter{
+        grid-template-columns: repeat(1,1fr);
+    } 
+    .banner, .sub-section{
+        flex-direction:column;
+        width: 100%;
+    }
+    .sub-section{
+        margin-right: 100px;
+    }
+}
