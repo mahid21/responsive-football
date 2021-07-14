@@ -2,6 +2,9 @@ body{
     background-color: #000000;
     font-family: 'Poppins', sans-serif;
 }
+*p{
+    font-size: 16px;
+}
 /* header start */
 .header{
 
@@ -12,9 +15,26 @@ body{
     margin: 0 auto;
     background-color:#2D25A0;
 }
+.menu-top ul{
+    margin-left: 500px;
+}
+.menu-top ul li{
+    float: left;
+    list-style: none;
+    line-height: 50px;
+}
+.menu-top ul li a{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 10px;
+}
+.menu-top ul li a:hover{
+    background-color: orange;
+}
 .banner{
     display: flex;
-    
+    width: 1440px;
 }
 .slogan{
     margin: 121px 102px 240px 156px;
@@ -37,11 +57,29 @@ styles{
     color: #FFFFFF;
     
 }
-.banner-img{
-    float: right;
-    width: 556.01px;
-    height: 438px;
+
+ .banner-logo{
+    position: relative;
+    margin: 10px;
 }
+.banner-logo:hover .animation{
+    display: block;
+    overflow: none;
+    
+    
+}
+
+.animation{
+    position: absolute;
+    top: 10px;
+    display: none;
+    
+}
+.animation img{
+    border-radius: 100px;
+    
+}
+
 /* section start */
 .main-section{
     background-color:#FFFFFF;
@@ -69,8 +107,28 @@ styles{
 .sub-section{
     display: flex;
     margin-top: 70px;
+    margin-left: 100px;
+}
+.sub-left{
+    margin:30px 0px 0px 100px;
+    width: 400px;
+    height: 309px;
+}
+.sub-left h2{
+    font-weight: 700;
+    font-size: 30px;
+}
+.sub-left a{
+    text-decoration: none;
+}
+.sub-right{
+    margin: 30px 0px 0px 60px;
 }
 /* footer start */
-.fav-icon a{
-   
+.footer{
+    margin: 30px 0px 0px 230px;
+    padding-bottom: 30px;
+}
+.fav-icon{
+   margin-left: 200px;
 }
